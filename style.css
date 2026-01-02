@@ -1,0 +1,116 @@
+*{
+    
+   margin: 0;
+   padding: 0;
+
+}
+
+    
+body{
+   
+  font-family: "Poppins", sans-serif;
+  
+}
+
+
+
+  
+
+.navbar{
+    padding: 10px;
+    background-color: violet;
+}
+.container{
+    padding: 10px;
+
+}
+.book-container{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    width: 25%;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 2s;
+    margin: 30px;
+    margin-top: 10px;
+}
+.book-container h2{
+    color: red;
+}
+.book-container button{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: none;
+    padding-right: 5px;
+    
+}
+.add-button-cls{
+    background-color: violet;
+    color: black;
+    border-radius: 100%;
+    margin-left: 90%;
+    margin-top: 90px;
+    padding: 30px;
+    border: none;
+    font-size: xx-large;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.add-box{
+    background-color: violet;
+    width: 40%;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    display: none;
+}
+.add-box input{
+    background: transparent;
+    width: 100%;
+    font-size:22px;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    border-bottom: solid black;
+
+}
+#book_desc{
+    background: transparent;
+    width: 100%;
+    font-size:22px;
+    margin: 5px;
+    padding: 5px;
+   
+    border: solid black
+} 
+
+.add-box button{
+    background-color: black;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    margin: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
